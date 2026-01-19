@@ -94,7 +94,7 @@
 .banner-content p{
     font-size: 1rem;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #CFC6E3;
     margin-top: 8px;
     margin-bottom: 20px;
 }
@@ -202,7 +202,7 @@
 .about-content p{
     font-size: 1rem;
     line-height: 20px;
-    color: #FFFFFF;
+    color: #CFC6E3;
     margin:8px;
 }
 
@@ -215,7 +215,7 @@
 .about-item .box p{
     font-size: 1rem;
     line-height: 20px;
-    color: #FFFFFF;
+    color: #CFC6E3;
     margin-top: 16px;
 }
 
@@ -226,4 +226,81 @@
     margin: 0 auto;
     border-top: 2px solid rgba(128, 128, 128, 0.2);
     padding-top: 60px;
+}
+
+/* Style Why Choose Section */
+
+#choose{
+    width: 100%;
+    height: 1050px;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #230E3D;
+    text-align: center;
+}
+
+.choose-header h2{
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-top: 70px;
+    margin-bottom: 40px;
+}
+
+.choose-container p{
+    font-size: 0.8rem;
+    line-height: 24px;
+    color: #CFC6E3;
+}
+
+.choose-container h4{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:#FFFFFF;
+}
+
+
+.choose-container{
+    width: 1200px;
+    height: 780px;
+    margin: 0 auto;
+}
+
+#box1{
+    padding-top: 100px;
+    align-items: center;
+}
+
+
+.choose-container>*{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 30px;
+    text-align: left;
+}
+
+#box1{
+    grid-area: box1;
+}
+#box2{
+    grid-area: box2;
+}
+#box3{
+    grid-area: box3;
+}
+#box4{
+    grid-area: box4;
+}
+#box5{
+    grid-area: box5;
+}
+
+.choose-container{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "box1 box2 box2 box2"
+    "box1 box3 box3 box3"
+    "box4 box4 box4 box5";
 }
