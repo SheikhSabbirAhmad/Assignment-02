@@ -304,3 +304,117 @@
     "box1 box3 box3 box3"
     "box4 box4 box4 box5";
 }
+
+/* Style Feature Episode Section */
+
+#feature-episode{
+    width: 100%;
+    height: 1200px;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.episode h2{
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.episode .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    /* border: 2px solid red; */
+    background-color:rgba(53, 17, 101, 0.4);
+    border-radius: 10px;
+    height: 440px;
+    text-align: left;
+}
+
+.card iframe{
+    width: 380px;
+    height: 215px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card h4{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:#FFFFFF;
+    padding: 24px;
+}
+
+.card p{
+    font-size: 0.8rem;
+    line-height: 24px;
+    color: #CFC6E3;
+    padding: 0px 24px 24px 24px;
+}
+
+.card h5{
+    font-size: 0.9rem;
+    line-height: 24px;
+    color: #00FF88;
+    padding-left: 24px;
+}
+
+/* Style Meet The Host section */
+
+.meet{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+}
+
+.meet-header h2{
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.meet-content{
+    text-align: left;
+    padding-left: 30px;
+}
+
+.meet-content h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.meet-content p{
+    font-size: 0.8rem;
+    line-height: 24px;
+    color: #CFC6E3;
+    margin-bottom: 20px;
+}
+
+.meet-content .icon ul{
+    display: flex;
+    justify-content:space-between;
+    width: 150px;
+}
+
+.icon li{
+    list-style: none;
+}
